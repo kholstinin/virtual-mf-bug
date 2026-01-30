@@ -16,6 +16,7 @@ export default {
       },
     }),
     new webpack.experiments.schemes.VirtualUrlPlugin({
+      type: '.js',
       routes: {
         source() {
           return `
